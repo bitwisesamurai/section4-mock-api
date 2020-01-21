@@ -1,5 +1,75 @@
 {
   "users": [{ "id": 1, "email": "davide@boylesoftware.com" }],
+  "sprints": [
+    {
+      "id" 1,
+      "projectSchedule": [
+        {
+          "date": "2020-3-1",
+          "day": 1,
+          "title": "Assignment 1 released",
+          "linkText": "From Day One",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-3",
+          "day": 3,
+          "title": "Assignment 2 released",
+          "linkText": "The Fundamental Question",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-5",
+          "day": 5,
+          "title": "Assignment 3 released",
+          "linkText": "From Day One",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-7",
+          "day": 7,
+          "title": "Assignment 4 released",
+          "linkText": "The Fundamental Question",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-9",
+          "day": 9,
+          "title": "Assignment 5 released",
+          "linkText": "The Fundamental Question",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-11",
+          "day": 11,
+          "title": "Project Office Hours",
+          "linkText": "Sign up!",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-12",
+          "day": 12,
+          "title": "Project Due",
+          "linkText": "Submit by 10pm",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-13",
+          "day": 13,
+          "title": "Final Livestream",
+          "linkText": "Sign up!",
+          "linkUrl": "https://www.google.com"
+        },
+        {
+          "date": "2020-3-14",
+          "day": 14,
+          "title": "Test link",
+          "linkText": "Test link",
+          "linkUrl": "https://www.google.com"
+        }
+      ]
+    }
+  ],
   "modules": [
     { "id": 1, "description": "Module 1", "enabled": true },
     { "id": 2, "description": "Module 2", "enabled": true },
