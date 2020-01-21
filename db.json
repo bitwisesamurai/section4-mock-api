@@ -3,6 +3,9 @@
   "sprints": [
     {
       "id": 1,
+      "slug": "strategy-sprint-1",
+      "name": "Strategy Sprint",
+      "number": 1,
       "projectSchedule": [
         {
           "date": "2020-3-1",
@@ -67,6 +70,35 @@
           "linkText": "Test link",
           "linkUrl": "https://www.google.com"
         }
+      ],
+      "bonusContent": [
+        {
+          "isNew": true,
+          "title": "Livestream 1",
+          "description":
+            "This is the first few lines of the description associated with the video. Ideally, it’s a few lines long, but doesn’t go overboard. So this should look good whether it’s one line or up two a few.",
+          "status": "not-yet-started",
+          "length": "57:25",
+          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg"
+        },
+        {
+          "isNew": false,
+          "title": "Nike announces Rundle",
+          "description":
+            "This is the first few lines of the description associated with the video. Ideally, it’s a few lines long, but doesn’t go overboard. So this should look good whether it’s one line or up two a few.",
+          "status": "in-progress",
+          "length": "57:25",
+          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg"
+        },
+        {
+          "isNew": false,
+          "title": "Introducing Strategy Sprint",
+          "description":
+            "This is the first few lines of the description associated with the video. Ideally, it’s a few lines long, but doesn’t go overboard. So this should look good whether it’s one line or up two a few.",
+          "status": "completed",
+          "length": "57:25",
+          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg"
+        }  
       ]
     }
   ],
@@ -75,9 +107,5 @@
     { "id": 2, "description": "Module 2", "enabled": true },
     { "id": 3, "description": "Module 3", "enabled": true },
     { "id": 4, "description": "Module 4", "enabled": false }
-  ],
-  "tests": [
-    { "id": "foo-1", "value": "Bar - 1" },
-    { "id": "foo-2", "value": "Bar - 2" }
   ]
 }
