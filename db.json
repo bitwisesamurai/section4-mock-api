@@ -2,7 +2,7 @@
   "users": [{ "id": 1, "email": "davide@boylesoftware.com" }],
   "sprints": [
     {
-      "id" 1,
+      "id": 1,
       "projectSchedule": [
         {
           "date": "2020-3-1",
