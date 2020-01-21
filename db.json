@@ -75,5 +75,9 @@
     { "id": 2, "description": "Module 2", "enabled": true },
     { "id": 3, "description": "Module 3", "enabled": true },
     { "id": 4, "description": "Module 4", "enabled": false }
+  ],
+  "tests": [
+    { "id": "foo-1", "value": "Bar - 1" },
+    { "id": "foo-2", "value": "Bar - 2" }
   ]
 }
