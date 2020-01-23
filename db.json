@@ -73,39 +73,124 @@
       ],
       "bonusContent": [
         {
+          "slug": "livestream-1",
           "isNew": true,
           "title": "Livestream 1",
           "description":
             "This is the first few lines of the description associated with the video. Ideally, it’s a few lines long, but doesn’t go overboard. So this should look good whether it’s one line or up two a few.",
           "status": "not-yet-started",
           "length": "57:25",
-          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg"
+          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg",
+          "videos": [
+            {
+              "video_key": "kT3lMPFf",
+              "video_duration": 183.41,
+              "formatted_video_duration": "03:03",
+              "aspect_width": "1920",
+              "aspect_height": "1080",
+              "featured_item": "true",
+              "video_details": {
+                "timed_track": [
+                  {
+                    "start_time": "01:06.000",
+                    "end_time": "01:22.000",
+                    "start_seconds": 66,
+                    "end_seconds": 82,
+                    "event_text": "More capital = worse returns",
+                    "event_type": "",
+                    "action": ""
+                  },
+                  {
+                    "start_time": "01:23.000",
+                    "end_time": "01:50.000",
+                    "start_seconds": 83,
+                    "end_seconds": 110,
+                    "event_text": "Venture is local",
+                    "event_type": "",
+                    "action": ""
+                  },
+                  {
+                    "start_time": "01:51.000",
+                    "end_time": "02:25.000",
+                    "start_seconds": 111,
+                    "end_seconds": 145,
+                    "event_text": "Smoking your own supply",
+                    "event_type": "",
+                    "action": ""
+                  }
+                ]
+              }
+            },
+            {
+              "video_key": "kT3lMPFf",
+              "video_duration": 183.41,
+              "formatted_video_duration": "03:03",
+              "aspect_width": "1920",
+              "aspect_height": "1080",
+              "featured_item": "true",
+              "video_details": {
+                "timed_track": [
+                  {
+                    "start_time": "01:06.000",
+                    "end_time": "01:22.000",
+                    "start_seconds": 66,
+                    "end_seconds": 82,
+                    "event_text": "More capital = worse returns",
+                    "event_type": "",
+                    "action": ""
+                  },
+                  {
+                    "start_time": "01:23.000",
+                    "end_time": "01:50.000",
+                    "start_seconds": 83,
+                    "end_seconds": 110,
+                    "event_text": "Venture is local",
+                    "event_type": "",
+                    "action": ""
+                  },
+                  {
+                    "start_time": "01:51.000",
+                    "end_time": "02:25.000",
+                    "start_seconds": 111,
+                    "end_seconds": 145,
+                    "event_text": "Smoking your own supply",
+                    "event_type": "",
+                    "action": ""
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
+          "slug": "nike-announces-rundle",
           "isNew": false,
           "title": "Nike announces Rundle",
           "description":
             "This is the first few lines of the description associated with the video. Ideally, it’s a few lines long, but doesn’t go overboard. So this should look good whether it’s one line or up two a few.",
           "status": "in-progress",
           "length": "57:25",
-          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg"
+          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg",
+          "content": "<div class=\"some-class\">HTML content</div>"
         },
         {
+          "slug": "introducing-strategy-sprint",
           "isNew": false,
           "title": "Introducing Strategy Sprint",
           "description":
             "This is the first few lines of the description associated with the video. Ideally, it’s a few lines long, but doesn’t go overboard. So this should look good whether it’s one line or up two a few.",
           "status": "completed",
           "length": "57:25",
-          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg"
+          "thumbnailUrl": "https://content.jwplatform.com/thumbs/Pf4puOKI-1920.jpg",
+          "content": "<div class=\"some-class\">HTML content</div>"
         }  
       ]
     }
   ],
   "modules": [
-    { "id": 1, "description": "Module 1", "enabled": true },
-    { "id": 2, "description": "Module 2", "enabled": true },
-    { "id": 3, "description": "Module 3", "enabled": true },
-    { "id": 4, "description": "Module 4", "enabled": false }
+    { "id": 1, "slug": "module-1", "description": "Module 1", "enabled": true },
+    { "id": 2, "slug": "module-2" "description": "Module 2", "enabled": true },
+    { "id": 3, "slug": "module-3" "description": "Module 3", "enabled": true },
+    { "id": 4, "slug": "module-4" "description": "Module 4", "enabled": false }
   ]
 }
