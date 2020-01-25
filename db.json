@@ -188,9 +188,9 @@
     }
   ],
   "modules": [
-    { "id": 1, "slug": "module-1", "description": "Module 1", "enabled": true },
-    { "id": 2, "slug": "module-2", "description": "Module 2", "enabled": true },
-    { "id": 3, "slug": "module-3", "description": "Module 3", "enabled": true },
-    { "id": 4, "slug": "module-4", "description": "Module 4", "enabled": false }
+    { "id": 1, "slug": "module-1", "title": "Module 1 Title", "description": "Module 1 description", "enabled": true },
+    { "id": 2, "slug": "module-2", "title": "Module 2 Title", "description": "Module 2 description", "enabled": true },
+    { "id": 3, "slug": "module-3", "title": "Module 3 Title", "description": "Module 3 description", "enabled": true },
+    { "id": 4, "slug": "module-4", "title": "Module 4 Title", "description": "Module 4 description", "enabled": false }
   ]
 }
